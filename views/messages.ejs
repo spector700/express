@@ -1,0 +1,9 @@
+  <h1>Mini MessageBoard</h1>
+  <ul>
+    <% messages.forEach((message) => { %>
+      <li>
+        <p>User: <%= message.user %></p>
+        <p>Message: <%= message.text %></p>
+        <p>Date: <%= message.added %></p>
+    <% }) %>
+  </ul>
